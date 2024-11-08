@@ -1,0 +1,6 @@
+general.import = [
+	"~/.config/alacritty/themes/themes/Cobalt2.toml",
+	"~/.config/alacritty/font.toml",
+	"~/.config/alacritty/genfig.toml",
+]
+

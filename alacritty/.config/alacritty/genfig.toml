@@ -1,0 +1,25 @@
+[window]
+option_as_alt = "OnlyLeft"
+opacity = 0.9
+dynamic_padding = false
+
+[window.padding]
+x = 25
+y = 20
+
+[env]
+SHELL = "fish"
+EDITOR = "nvim"
+PAGER = "less"
+VISUAL = "nvim"
+[terminal.shell]
+program = "/opt/homebrew/bin/fish"
+
+[keyboard]
+bindings = [
+   { key = "Return", mods = "Control|Shift", action = "SpawnNewInstance" }
+]
+
+[bell]
+duration = 5
+
