@@ -12,8 +12,6 @@ SHELL = "fish"
 EDITOR = "nvim"
 PAGER = "less"
 VISUAL = "nvim"
-[terminal.shell]
-program = "/opt/homebrew/bin/fish"
 
 [keyboard]
 bindings = [
