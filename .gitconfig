@@ -1,0 +1,10 @@
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[user]
+	email = 143053966+hmasuai@users.noreply.github.com
+	name = hmasusi
+[init]
+	defaultBranch = main
